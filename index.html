@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FILT — Film Translator</title>
+  <meta name="description" content="FILT — Film Translator. Feel it, Fill it. 하나의 작품에서 출발해 무한한 해석과 형태로 확장되는 아카이브.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header class="site-header">
+    <div class="wrap">
+      <div class="wordmark">
+        <a href="index.html">FILT</a>
+        <span class="tagline">Film Translator</span>
+      </div>
+      <nav class="site-nav">
+        <a href="archive.html">Archive</a>
+        <a href="film.html">Film</a>
+        <a href="music.html">Music</a>
+        <a href="book.html">Book</a>
+        <a href="text.html">Text</a>
+        <a href="image.html">Image</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==================== MASTHEAD ==================== -->
+    <section class="masthead">
+      <div class="wrap">
+        <h1>FILT</h1>
+        <p class="sub">Film Translator</p>
+        <p class="intro">
+          <em>Feel it, Fill it.</em><br>
+          하나의 작품, 하나의 장면에서 시작된 가능성은
+          무한한 해석과 형태로 확장됩니다.<br>
+          FILT는 그 확장을 기록하는 아카이브입니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== LATEST ARCHIVE ==================== -->
+    <section>
+      <div class="wrap">
+        <p class="section-label">Latest — Archive</p>
+
+        <ul class="entry-list">
+
+          <!-- ============================================================
+               HOW CATEGORIES WORK
+               -------------------
+               ARCHIVE (archive.html) lists every entry.
+               Each category page (film.html, music.html, book.html,
+               text.html, image.html) lists ONLY entries with that tag.
+
+               TO ADD A NEW ARCHIVE ENTRY:
+               1. Copy an <li class="entry"> block below (remove
+                  class "placeholder" if present).
+               2. Paste it here (Latest) AND in archive.html AND in
+                  every category page matching its tags.
+                  e.g. category "FILM / TEXT" → film.html + text.html
+               ============================================================ -->
+
+          <!-- Archive 001 — featured entry · category: FILM / TEXT -->
+          <li class="entry">
+            <a href="posts/hope-dialogue.html">
+              <span class="entry-no">001</span>
+              <span class="entry-cat">Film / Text</span>
+              <span class="entry-main">
+                <span class="entry-title">HOPE
+                  <span class="entry-sub">대사집 — Selected Lines from HOPE</span>
+                  <span class="entry-desc">영화가 끝난 뒤에도 남아 있던 문장들.</span>
+                </span>
+              </span>
+              <span class="entry-date">2026. 08</span>
+            </a>
+          </li>
+
+          <!-- Placeholder entry 002 -->
+          <li class="entry placeholder">
+            <a href="archive.html">
+              <span class="entry-no">002</span>
+              <span class="entry-cat">Music</span>
+              <span class="entry-main">
+                <span class="entry-title">Untitled
+                  <span class="entry-sub">다음 아카이브를 위한 자리</span>
+                </span>
+              </span>
+              <span class="entry-date">—</span>
+            </a>
+          </li>
+
+          <!-- Placeholder entry 003 -->
+          <li class="entry placeholder">
+            <a href="archive.html">
+              <span class="entry-no">003</span>
+              <span class="entry-cat">Book</span>
+              <span class="entry-main">
+                <span class="entry-title">Untitled
+                  <span class="entry-sub">다음 아카이브를 위한 자리</span>
+                </span>
+              </span>
+              <span class="entry-date">—</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- ==================== CATEGORY NAVIGATION ==================== -->
+    <!-- Update the counts when you add entries -->
+    <section>
+      <div class="wrap">
+        <p class="section-label">Index</p>
+      </div>
+      <nav class="category-nav">
+        <div class="wrap">
+          <ul>
+            <li><a href="film.html">FILM<span class="count">01</span></a></li>
+            <li><a href="music.html">MUSIC<span class="count">00</span></a></li>
+            <li><a href="book.html">BOOK<span class="count">00</span></a></li>
+            <li><a href="text.html">TEXT<span class="count">01</span></a></li>
+            <li><a href="image.html">IMAGE<span class="count">00</span></a></li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>FILT — Film Translator</span>
+      <span>Feel it, Fill it</span>
+      <span>© 2026 FILT</span>
+    </div>
+  </footer>
+
+</body>
+</html>

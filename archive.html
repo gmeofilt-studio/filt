@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archive — FILT</title>
+  <meta name="description" content="The full FILT archive — film, music, book, text, image.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header class="site-header">
+    <div class="wrap">
+      <div class="wordmark">
+        <a href="index.html">FILT</a>
+        <span class="tagline">Film Translator</span>
+      </div>
+      <nav class="site-nav">
+        <a href="archive.html" class="active">Archive</a>
+        <a href="film.html">Film</a>
+        <a href="music.html">Music</a>
+        <a href="book.html">Book</a>
+        <a href="text.html">Text</a>
+        <a href="image.html">Image</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+
+      <!-- ==================== PAGE HEAD ==================== -->
+      <section class="page-head">
+        <h1>ARCHIVE</h1>
+        <p>하나에서 시작해 무한으로 확장된 것들의 목록. 순서는 시간을 따르고, 형식은 각자의 것을 따릅니다.</p>
+      </section>
+
+      <!-- Category filter -->
+      <nav class="filter-nav">
+        <a href="archive.html" class="active">All</a>
+        <a href="film.html">Film</a>
+        <a href="music.html">Music</a>
+        <a href="book.html">Book</a>
+        <a href="text.html">Text</a>
+        <a href="image.html">Image</a>
+      </nav>
+
+      <!-- ==================== FULL ENTRY LIST (ALL CATEGORIES) ==================== -->
+      <!-- ============================================================
+           ARCHIVE = every entry, newest first.
+
+           TO ADD A NEW ENTRY:
+           1. Copy an <li class="entry"> block, update number /
+              category / title / subtitle / description / date / link.
+           2. ALSO paste it into every category page matching its tags
+              (film.html, music.html, book.html, text.html, image.html)
+              and into the Latest list on index.html.
+           ============================================================ -->
+      <ul class="entry-list">
+
+        <!-- Archive 001 · category: FILM / TEXT -->
+        <li class="entry">
+          <a href="posts/hope-dialogue.html">
+            <span class="entry-no">001</span>
+            <span class="entry-cat">Film / Text</span>
+            <span class="entry-main">
+              <span class="entry-title">HOPE
+                <span class="entry-sub">대사집 — Selected Lines from HOPE</span>
+                <span class="entry-desc">영화가 끝난 뒤에도 남아 있던 문장들.</span>
+              </span>
+            </span>
+            <span class="entry-date">2026. 08</span>
+          </a>
+        </li>
+
+        <!-- Placeholder 002 -->
+        <li class="entry placeholder">
+          <a href="music.html">
+            <span class="entry-no">002</span>
+            <span class="entry-cat">Music</span>
+            <span class="entry-main">
+              <span class="entry-title">Untitled
+                <span class="entry-sub">다음 아카이브를 위한 자리</span>
+                <span class="entry-desc">플레이리스트, 앨범 노트, 혹은 한 곡에 대한 기록.</span>
+              </span>
+            </span>
+            <span class="entry-date">—</span>
+          </a>
+        </li>
+
+        <!-- Placeholder 003 -->
+        <li class="entry placeholder">
+          <a href="book.html">
+            <span class="entry-no">003</span>
+            <span class="entry-cat">Book</span>
+            <span class="entry-main">
+              <span class="entry-title">Untitled
+                <span class="entry-sub">다음 아카이브를 위한 자리</span>
+                <span class="entry-desc">밑줄, 발췌, 다시 읽은 문장들.</span>
+              </span>
+            </span>
+            <span class="entry-date">—</span>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>FILT — Film Translator</span>
+      <span>Feel it, Fill it</span>
+      <span>© 2026 FILT</span>
+    </div>
+  </footer>
+
+</body>
+</html>
